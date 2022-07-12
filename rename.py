@@ -26,7 +26,7 @@ from os import getenv, path, remove, rename
 from pyrogram import Client, filters, enums
 from pyrogram.types import Message
 
-bot = Client("Chatbot", 
+bot = Client("Renamerbot", 
                 bot_token=getenv("BOT_TOKEN"), 
                 api_id=getenv("API_ID"), 
                 api_hash=getenv("API_HASH"))
